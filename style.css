@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.navbar{
+    border-bottom: 4px solid #3aa832;
+}
+.mto{
+    color: #3aa832;
+    margin-left: 30px;
+}
+.mott{
+    text-align: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/banner/banner2.jpg);
+    background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn:hover{
+    background-color: #3aa832;
+    color: black;
+}
+.momo{
+    color: #3aa832;
+    text-align: center;
+    
+}
+.moto{
+    text-align: center;
+}
+.icon-item{
+    margin: 30px 170px;
+    color: #3aa832;
+    
+}
+.img-ban{
+    float: right;
+    width: 50%;
+}
+.final-signup{
+    text-align: center;
+    background-color: #11710a;
+    padding: 50px -1px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.footer-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#3aa832;
+    padding: 30px;
+}
+
