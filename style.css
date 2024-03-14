@@ -1,63 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-.navbar{
-    border-bottom: 4px solid #3aa832;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.mto{
-    color: #3aa832;
-    margin-left: 30px;
+.navbar {
+  border-bottom: 4px solid #3aa832;
 }
-.mott{
-    text-align: center;
+.mto {
+  color: #3aa832;
+  margin-left: 170px;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(image/banner/banner2.jpg);
-    background-size: cover; 
-    width: 100vw;
-    height: 100vh;
+.header-contant {
+  margin-top: 100px;
 }
 
-.btn:hover{
-    background-color: #3aa832;
-    color: black;
+.btn:hover {
+  background-color: #1ab805;
+  color: black;
 }
-.momo{
-    color: #3aa832;
-    text-align: center;
-    
+.botn {
+  margin-bottom: 80px;
+  text-align: end;
 }
-.moto{
-    text-align: center;
+.btn-change {
+  border-radius: 30px;
 }
-.icon-item{
-    margin: 30px 170px;
-    color: #3aa832;
-    
+.momo {
+  color: #3aa832;
+  text-align: center;
 }
-.img-ban{
-    float: right;
-    width: 50%;
+.mott {
+  margin-left: 10px;
 }
-.final-signup{
-    text-align: center;
-    background-color: #11710a;
-    padding: 50px -1px;
-    border-radius: 5px;
-    color: whitesmoke;
+.moto {
+  text-align: center;
 }
-.footer-container{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    color:#3aa832;
-    padding: 30px;
+.img-1 {
+  position: relative;
+  margin-top: 20px;
+  right: 400px;
+  z-index: -1;
+}
+.img-2 {
+  padding-top: 1px;
+}
+.text-efm {
+  text-align: center;
+  margin-top: 200px;
+}
+.icon-item {
+  margin: 30px 170px;
+  color: #3aa832;
+}
+.img-ban {
+  float: right;
+  width: 50%;
+}
+.btuo {
+  margin-left: 200px;
+}
+.final-signup {
+  padding-top: 65px;
+  padding-left: 65px;
+  background: linear-gradient(to right, #33cc33 60%, #66ff66 100%);
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.footer-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #3aa832;
+  padding: 30px;
 }
 
+@media (max-width: 768px) {
+  .header-contant {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mto {
+    margin-left: 10px;
+  }
+  .img-1 {
+    left: 80px;
+    z-index: -1;
+  }
+  .img-2 {
+    width: 300px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  .btuo {
+    margin-left: 100px;
+  }
+}
