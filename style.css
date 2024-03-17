@@ -8,12 +8,14 @@
 }
 .mto {
   color: #3aa832;
-  margin-left: 170px;
+  margin-left: 270px;
 }
 .header-contant {
   margin-top: 100px;
 }
-
+.btn {
+  border-radius: 20px;
+}
 .btn:hover {
   background-color: #1ab805;
   color: black;
@@ -49,7 +51,7 @@
   margin-top: 200px;
 }
 .icon-item {
-  margin: 30px 170px;
+  margin: 31px 127px;
   color: #3aa832;
 }
 .img-ban {
