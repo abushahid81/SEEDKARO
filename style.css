@@ -38,8 +38,8 @@
 }
 .img-1 {
   position: relative;
-  margin-top: 20px;
-  right: 400px;
+  margin-top: 80px;
+  right: 300px;
   z-index: -1;
 }
 .img-2 {
@@ -76,25 +76,20 @@
   color: #3aa832;
   padding: 30px;
 }
-
-@media (max-width: 768px) {
-  .header-contant {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .mto {
-    margin-left: 10px;
-  }
-  .img-1 {
-    left: 80px;
-    z-index: -1;
-  }
-  .img-2 {
-    width: 300px;
-    height: 50px;
-    margin-right: 20px;
-  }
-  .btuo {
-    margin-left: 125px;
-  }
+.text-start{
+  padding-left: 50px;
 }
+.contact-text{
+font-size: 35px;
+color: #3aa832;
+}
+.btn-success{
+  border-radius: 25px;
+  color: whitesmoke;
+  width: 190px;
+  height: 50px;
+  background-color: #3aa832;  
+} 
+
+
+
