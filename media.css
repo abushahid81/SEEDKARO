@@ -21,14 +21,14 @@
   } */
   
  @media (max-width: 767.98px) {
-  /* .header-contant {
+   .header-contant {
       text-align: center;
       margin-top: 20px;
     }
-    .mto {
+    /* .mto {
       margin-left: 10px;
-    }
-    .img-1 {
+    } */
+    /* .img-1 {
       left: 80px;
       z-index: -1;
     }
@@ -39,7 +39,7 @@
     }
     .btuo {
       margin-left: 125px;
-    } */
+    }  */
     .navbar-toggler{
       margin-left: 275px;
       margin-top: -50px;
