@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .header-contant {
       text-align: center;
       margin-top: 20px;
@@ -18,9 +18,9 @@
     .btuo {
       margin-left: 125px;
     }
-  }
+  } */
   
- /* @media (max-width: 767.98px) {
+ @media (max-width: 767.98px) {
   .header-contant {
       text-align: center;
       margin-top: 20px;
@@ -41,7 +41,7 @@
       margin-left: 125px;
     }
 
-  } */
+  }
   
   
 
