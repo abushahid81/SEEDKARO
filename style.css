@@ -42,19 +42,21 @@
   text-align: center;
 }
 /* mobile-demo */
+
 .img-1 {
   position: relative;
-  margin-top: 80px;
-  right: 300px;
+  margin-top: 50px;
+  right: 450px;
   z-index: -1;
-  width:500ox ;
+   width: 500px ;
   height: 500px;
 }
 .img-2 {
   padding-top: 1px;
-  /* width: 50px; */
-  height: 500px;
+  width: 350px;
+  
 }
+
 .text-efm {
   text-align: center;
   margin-top: 200px;
