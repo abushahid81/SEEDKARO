@@ -6,6 +6,11 @@
 .navbar {
   border-bottom: 4px solid #3aa832;
 }
+.navbar-toggler{
+  margin-left: 330px;
+  margin-top: -50px;
+
+}
 .mto {
   color: #3aa832;
   margin-left: 270px;
@@ -36,19 +41,25 @@
 .moto {
   text-align: center;
 }
+/* mobile-demo */
 .img-1 {
   position: relative;
   margin-top: 80px;
   right: 300px;
   z-index: -1;
+  width:500ox ;
+  height: 500px;
 }
 .img-2 {
   padding-top: 1px;
+  /* width: 50px; */
+  height: 500px;
 }
 .text-efm {
   text-align: center;
   margin-top: 200px;
 }
+/* none */
 .icon-item {
   margin: 31px 127px;
   color: #3aa832;
