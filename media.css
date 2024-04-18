@@ -25,6 +25,15 @@
       text-align: center;
       margin-top: 20px;
     }
+  
+    .navbar-toggler{
+      margin-left: 275px;
+      margin-top: -50px;
+    
+    }
+    .ccs{
+    margin-bottom: 15px;
+    }
     /* .mto {
       margin-left: 10px;
     } */
@@ -40,11 +49,6 @@
     .btuo {
       margin-left: 125px;
     }  */
-    .navbar-toggler{
-      margin-left: 275px;
-      margin-top: -50px;
-    
-    }
 
   }
   
